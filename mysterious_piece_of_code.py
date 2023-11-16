@@ -17,8 +17,8 @@ def solve_case():
         else:
             print("Intercepted a coded transmission.")
 
-        # Increment the clue counter
-        clue -= 1
+        # Clue counter
+        clue == 1
 
     # Analyze the clues and reveal the solution
     print("\nSolving the case...")
