@@ -13,7 +13,7 @@ while clue == 0:
         print("Found a footprint.")
     elif clue == 1:
         print("Discovered a hidden message.")
-    else:
+    else
         print("Intercepted a coded transmission.")
 
     # Clue counter
