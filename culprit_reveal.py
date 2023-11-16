@@ -14,10 +14,10 @@ while clues > 0:
     else:
         clues -= 1
 
-    if suspect_Watson:  # Corrected the syntax error
+    if suspect_Watson
         suspect_Watson = False
     else:
-        clues -= 1
+        clues += 1
 
     if suspect_Adler:
         suspect_Adler = False
@@ -30,7 +30,7 @@ if suspect_Moriarty:
 elif suspect_Watson:
     culprit = "Watson"
 elif suspect_Adler:
-    culprit = "Adler"
+    culprit == "Adler"
 else:
     culprit = "Unknown"
 
